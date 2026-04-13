@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Школа бьюти-мастеров MasterClass</title>
+  <meta name="description"
+    content="Обучение бьюти-профессиям с нуля. Быстрый старт заработка: курсы парикмахера, барбера, маникюра, визажа и многое другое. Практика с первой минуты!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- Floating Action Button -->
+  <div class="fab-container">
+    <div class="fab-menu">
+      <a href="https://wa.me/996553381039?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%BF%D0%B5%D1%80%D0%B5%D1%88%D1%91%D0%BB%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20MasterClass%20%D0%B8%20%D1%85%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%D0%B0%D1%85."
+        target="_blank" class="fab-item bg-whatsapp" data-tooltip="WhatsApp">
+        <svg fill="#fff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+        </svg>
+      </a>
+      <a href="tel:+996700700649" class="fab-item bg-phone" data-tooltip="Позвонить">
+        <svg fill="#fff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+        </svg>
+      </a>
+      <a href="https://t.me/+996700700649" target="_blank" class="fab-item bg-telegram" data-tooltip="Telegram">
+        <svg fill="#fff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.32-.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.888-.662 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+        </svg>
+      </a>
+      <a href="https://instagram.com/jazira.avaz.beauty" target="_blank" class="fab-item bg-instagram"
+        data-tooltip="Instagram">
+        <svg fill="#fff" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+        </svg>
+      </a>
+    </div>
+    <button class="fab-button">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+        </path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">Master<span>Class</span></a>
+      <nav class="nav-menu">
+        <a href="#courses" class="nav-link">Курсы</a>
+        <a href="#benefits" class="nav-link">Преимущества</a>
+        <a href="#format" class="nav-link">Формат</a>
+        <a href="#mbank" class="nav-link">Рассрочка</a>
+        <a href="#teachers" class="nav-link">Преподаватели</a>
+      </nav>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero-bg text-center">
+    <div class="container hero-content">
+      <span class="hero-top-text">Школа красоты · Бишкек · с 2012 года</span>
+      <h1 class="hero-title">Обучение бьюти-профессиям с нуля</h1>
+      <p class="hero-subtitle">Быстрый старт заработка после курса. Практика с первой минуты!</p>
+
+      <div class="hero-utp">
+        <div class="utp-item">
+          <span class="utp-icon">✓</span> Обучение от 3000 сом
+        </div>
+        <div class="utp-item">
+          <span class="utp-icon">✓</span> Окупаемость: 5–6 клиентов
+        </div>
+        <div class="utp-item">
+          <span class="utp-icon">✓</span> Более 6000 выпускников
+        </div>
+        <div class="utp-item">
+          <span class="utp-icon">✓</span> 12 лет опыта
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#courses"
+          style="background-color: #4a7a50; border-radius: 4px; color: white; text-transform: uppercase; letter-spacing: 1px; border: none; padding: 14px 28px;"
+          class="btn">Выбрать курс</a>
+        <a href="https://wa.me/996553381039?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%BF%D0%B5%D1%80%D0%B5%D1%88%D1%91%D0%BB%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20MasterClass%20%D0%B8%20%D1%85%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5%20%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%D0%B0%D1%85."
+          target="_blank"
+          style="text-decoration: underline; background: transparent; border: none; color: var(--c-white); padding: 14px; font-weight: 500; font-size: 1rem; cursor: pointer;">КОНСУЛЬТАЦИЯ
+          →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Carousel -->
+  <section id="courses" class="section">
+    <div class="container">
+      <div class="section-header-flex"
+        style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; margin-bottom: 32px; gap: 16px;">
+        <div style="flex: 1 1 auto; text-align: left;">
+          <h2 class="section-title" style="margin-bottom: 8px; text-align: left;">Наши курсы</h2>
+          <p class="section-subtitle" style="margin-bottom: 0; text-align: left; margin-inline: 0;">Выберите профессию,
+            которая приносит высокий доход с первых дней</p>
+        </div>
+        <div class="carousel-arrows-container" style="display: flex; gap: 8px; flex-shrink: 0; padding-bottom: 4px;">
+          <button id="prevBtn" class="carousel-prev" aria-label="Предыдущие курсы"
+            style="width:40px; height:40px; background:#fff; border:1px solid #e0e0e0; border-radius:4px; font-size:20px; color:var(--c-sage); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: background 0.3s;"
+            onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fff'">&lt;</button>
+          <button id="nextBtn" class="carousel-next" aria-label="Следующие курсы"
+            style="width:40px; height:40px; background:#fff; border:1px solid #e0e0e0; border-radius:4px; font-size:20px; color:var(--c-sage); cursor:pointer; display:flex; align-items:center; justify-content:center; transition: background 0.3s;"
+            onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fff'">&gt;</button>
+        </div>
+      </div>
+
+      <div class="courses-carousel-wrap" style="position: relative;">
+        <div class="courses-carousel" id="coursesCarousel" style="overflow-x: auto;">
+
+          <!-- Card 1 -->
+          <div class="course-card">
+            <div class="course-img-wrap" onclick="window.location.href='courses/hair.html'" style="cursor:pointer;">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EПарикмахер%3C/text%3E%3C/svg%3E"
+                alt="Парикмахер-универсал" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title" onclick="window.location.href='courses/hair.html'" style="cursor:pointer;">
+                Парикмахерское дело</h3>
+              <p class="card-desc mb-2">Профессия с нуля до уверенного мастера.</p>
+              <div class="course-price" style="margin-bottom: 0;">от 8000 сом / мес</div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="course-card">
+            <div class="course-img-wrap" onclick="window.location.href='courses/nails.html'" style="cursor:pointer;">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EМаникюр%3C/text%3E%3C/svg%3E"
+                alt="Ногтевой сервис" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title" onclick="window.location.href='courses/nails.html'" style="cursor:pointer;">
+                Ногтевой сервис</h3>
+              <p class="card-desc mb-2">Практический курс с большим количеством отработки (все виды маникюра).</p>
+              <div class="course-price" style="margin-bottom: 0;">9500 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="course-card">
+            <div class="course-img-wrap" onclick="window.location.href='courses/brows.html'" style="cursor:pointer;">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EБровист%3C/text%3E%3C/svg%3E"
+                alt="Брови" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title" onclick="window.location.href='courses/brows.html'" style="cursor:pointer;">Брови
+              </h3>
+              <p class="card-desc mb-2">Архитектура, окрашивание и ламинирование бровей.</p>
+              <div class="course-price" style="margin-bottom: 0;">6500 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="course-card">
+            <div class="course-img-wrap" onclick="window.location.href='courses/lashes.html'" style="cursor:pointer;">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EРесницы%3C/text%3E%3C/svg%3E"
+                alt="Ресницы" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title" onclick="window.location.href='courses/lashes.html'" style="cursor:pointer;">
+                Ресницы</h3>
+              <p class="card-desc mb-2">Наращивание и ламинирование ресниц с нуля.</p>
+              <div class="course-price" style="margin-bottom: 0;">8500 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="course-card">
+            <div class="course-img-wrap" onclick="window.location.href='courses/pmu.html'" style="cursor:pointer;">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EПерманент%3C/text%3E%3C/svg%3E"
+                alt="Перманентный макияж" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title" onclick="window.location.href='courses/pmu.html'" style="cursor:pointer;">
+                Перманентный макияж</h3>
+              <p class="card-desc mb-2">Освой одну из самых прибыльных профессий в бьюти.</p>
+              <div class="course-price" style="margin-bottom: 0;">25 000 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="course-card" style="pointer-events: none; cursor: default;">
+            <div class="course-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EВизажист%3C/text%3E%3C/svg%3E"
+                alt="Курс визажиста" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title">Курс визажиста</h3>
+              <p class="card-desc mb-2">Развитие художественного таланта. Трендовые техники макияжа от нюд до смоки.</p>
+              <div class="course-price" style="margin-bottom: 0;">20 000 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="course-card" style="pointer-events: none; cursor: default;">
+            <div class="course-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='18' text-anchor='middle' dy='.3em'%3EСам себе визажист%3C/text%3E%3C/svg%3E"
+                alt="Макияж для себя" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title">Макияж для себя</h3>
+              <p class="card-desc mb-2">Дневной и вечерний макияж, подбор тона, контурирование лица.</p>
+              <div class="course-price" style="margin-bottom: 0;">7 000 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="course-card" style="pointer-events: none; cursor: default;">
+            <div class="course-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EКосметолог%3C/text%3E%3C/svg%3E"
+                alt="Косметолог-эстетист" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title">Косметолог-эстетист</h3>
+              <p class="card-desc mb-2">Уходы, чистки, пилинги, аппаратная косметология. 3 вида массажа лица.</p>
+              <div class="course-price" style="margin-bottom: 0;">25 000 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="course-card" style="pointer-events: none; cursor: default;">
+            <div class="course-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EШугаринг%3C/text%3E%3C/svg%3E"
+                alt="Шугаринг и восковая эпиляция" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title">Шугаринг и восковая эпиляция</h3>
+              <p class="card-desc mb-2">Все зоны эпиляции. Материалы предоставляет школа.</p>
+              <div class="course-price" style="margin-bottom: 0;">5 500 сом</div>
+            </div>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="course-card" style="pointer-events: none; cursor: default;">
+            <div class="course-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='%23dbe4d8'/%3E%3Ctext x='50%25' y='50%25' fill='%2381956e' font-family='sans-serif' font-size='24' text-anchor='middle' dy='.3em'%3EМассаж%3C/text%3E%3C/svg%3E"
+                alt="Курсы массажа" class="course-img">
+            </div>
+            <div class="course-content">
+              <h3 class="course-title">Курсы массажа</h3>
+              <p class="card-desc mb-2">Классический, лечебный, антицеллюлитный, релакс и медовый массаж.</p>
+              <div class="course-price" style="margin-bottom: 0;">15 000 сом</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="benefits" class="section">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают нас</h2>
+      <p class="section-subtitle">Мы не просто учим — мы выводим вас в профессию. С первого дня и до первого клиента.
+      </p>
+
+      <div class="grid-cards">
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 14v6.5" />
+            </svg>
+          </div>
+          <h3 class="card-title">Диплом RU + EN</h3>
+          <p class="card-desc">Международный документ, признанный в СНГ и за рубежом.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="card-title">Мастера-практики</h3>
+          <p class="card-desc">Учат те, кто работает в индустрии прямо сейчас — никаких теоретиков.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z" />
+            </svg>
+          </div>
+          <h3 class="card-title">Практика с 1-й минуты</h3>
+          <p class="card-desc">Работаешь с реальными клиентами уже с первого занятия — никакой теории впустую.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="card-title">10% скидка</h3>
+          <p class="card-desc">Постоянным студентам на каждый следующий курс.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Format / Steps Section -->
+  <section id="format" class="section format-bg">
+    <div class="container">
+      <h2 class="section-title">Как проходит обучение</h2>
+      <p class="section-subtitle">Путь от новичка до уверенного мастера всего за 4 простых шага</p>
+
+      <div class="grid-cards">
+        <div class="step-card glass-card">
+          <h3 class="card-title" style="color: var(--c-sage); font-size: 2.5rem; margin-bottom: 8px;">1</h3>
+          <h4 class="card-title">Заявка</h4>
+          <p class="card-desc">Вы оставляете заявку любым удобным способом.</p>
+        </div>
+        <div class="step-card glass-card">
+          <h3 class="card-title" style="color: var(--c-sage); font-size: 2.5rem; margin-bottom: 8px;">2</h3>
+          <h4 class="card-title">Консультация</h4>
+          <p class="card-desc">Мы помогаем выбрать курс и удобный график под вас.</p>
+        </div>
+        <div class="step-card glass-card">
+          <h3 class="card-title" style="color: var(--c-sage); font-size: 2.5rem; margin-bottom: 8px;">3</h3>
+          <h4 class="card-title">Обучение</h4>
+          <p class="card-desc">Практика, теория и много реальных моделей.</p>
+        </div>
+        <div class="step-card glass-card">
+          <h3 class="card-title" style="color: var(--c-sage); font-size: 2.5rem; margin-bottom: 8px;">4</h3>
+          <h4 class="card-title">Результат</h4>
+          <p class="card-desc">Вы получаете диплом и уверенность для работы с клиентами.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Courses Accordion -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Популярные направления</h2>
+      <p class="section-subtitle">Краткая сводка по самым востребованным курсам</p>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            Парикмахерское дело
+            <span class="accordion-icon">+</span>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-inner">
+              <p class="mb-1"><strong>Формат:</strong> 4-6 месяцев обучения.</p>
+              <p class="mb-1"><strong>Стоимость:</strong> от 8000 сом / месяц.</p>
+              <p>Женские и мужские стрижки, укладки любой сложности, уход и психология общения с клиентом.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            Ногтевой сервис (Маникюр)
+            <span class="accordion-icon">+</span>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-inner">
+              <p class="mb-1"><strong>Формат:</strong> 12 занятий по 4-6 часов.</p>
+              <p class="mb-1"><strong>Стоимость:</strong> 9500 сом.</p>
+              <p>В курс входит все виды маникюра, наращивания и дизайна. Стерилизация, психология работы с клиентом и
+                ведение Instagram.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-header">
+            Брови & Ресницы
+            <span class="accordion-icon">+</span>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-inner">
+              <p class="mb-1"><strong>Формат:</strong> 5-10 дней интенсивной работы.</p>
+              <p class="mb-1"><strong>Стоимость:</strong> от 6500 сом.</p>
+              <p>Архитектура, окрашивание, ламинирование бровей и ресниц. Наращивание (классика и объемы).</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Mbank Installment -->
+  <section id="mbank" class="section">
+    <div class="container">
+      <div class="mbank-block">
+        <div class="mbank-content">
+          <h2 class="mbank-title">Рассрочка через Mbank</h2>
+          <p class="mbank-desc">Не откладывайте мечту на потом! Начните обучение прямо сейчас с беспроцентной рассрочкой
+            от Mbank. Платите частями, а зарабатывать начинайте уже во время или сразу после курса.</p>
+          <a href="https://wa.me/996553381039?text=%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%20%D1%80%D0%B0%D1%81%D1%81%D1%80%D0%BE%D1%87%D0%BA%D1%83"
+            target="_blank" class="btn btn-primary" style="background-color: var(--c-dark-text);">Узнать условия</a>
+        </div>
+        <div>
+          <!-- Mbank Logo Placeholder (or just stylized text/card) -->
+          <svg width="200" height="auto" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="120" rx="20" fill="#25A249" />
+            <text x="200" y="75" fill="#fff" font-family="Arial, sans-serif" font-weight="bold" font-size="60"
+              text-anchor="middle">MBANK</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="section" style="background: var(--c-white);">
+    <div class="container">
+      <h2 class="section-title">Ваш результат после курса</h2>
+      <p class="section-subtitle">Мы выпускаем готовых мастеров, а не просто учеников</p>
+
+      <div class="grid-cards">
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 2l8 4-8 4-8-4 8-4zm0 8l8 4-8 4-8-4 8-4zm0 8l8 4-8 4-8-4 8-4z" />
+            </svg>
+          </div>
+          <h3 class="card-title">Твердые навыки</h3>
+          <p class="card-desc">Вы будете уметь делать популярные процедуры качественно и без страха.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="card-title">Быстрый заработок</h3>
+          <p class="card-desc">Первые деньги можно заработать уже на этапе практики или сразу после выпуска.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="card-title">Поддержка</h3>
+          <p class="card-desc">Мы помогаем своим выпускникам в старте профессии и всегда на связи.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <h3 class="card-title">Международный диплом</h3>
+          <p class="card-desc">Документ RU + EN, признанный в СНГ и за рубежом. Открывает двери в любой стране.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="section" style="background: var(--c-light-gray);">
+    <div class="container">
+      <h2 class="section-title">Отзывы учеников</h2>
+      <p class="section-subtitle">Реальные истории наших выпускников</p>
+
+      <div class="grid-cards" style="align-items: stretch;">
+        <div class="review-card"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+          <div style="display:flex; align-items:center; gap: 16px; margin-bottom: 16px;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--c-sage-light); display:flex; align-items:center; justify-content:center; font-weight:bold; color:var(--c-sage);">
+              А</div>
+            <div>
+              <h4 style="margin:0; font-size:1.125rem;">Айдана Касымова</h4>
+              <span style="font-size:0.875rem; color:var(--c-gray-text);">Курс: Ногтевой сервис</span>
+            </div>
+          </div>
+          <p style="color:var(--c-dark-text); font-size:14px; line-height:1.5; text-align:left;">Огромное спасибо за
+            обучение! Отличная
+            школа, грамотные преподаватели. Практика с первого дня, что очень важно. Руку поставили быстро, страх перед
+            клиентами ушел уже на второй неделе.</p>
+        </div>
+
+        <div class="review-card"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+          <div style="display:flex; align-items:center; gap: 16px; margin-bottom: 16px;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--c-sage-light); display:flex; align-items:center; justify-content:center; font-weight:bold; color:var(--c-sage);">
+              М</div>
+            <div>
+              <h4 style="margin:0; font-size:1.125rem;">Мадина Токтобекова</h4>
+              <span style="font-size:0.875rem; color:var(--c-gray-text);">Курс: Перманентный макияж</span>
+            </div>
+          </div>
+          <p style="color:var(--c-dark-text); font-size:14px; line-height:1.5; text-align:left;">Я долго выбирала
+            школу и не ошиблась!
+            Всё доступно объясняют, модели всегда были. После окончания сразу начала работать на себя, знания дали
+            мощнейшие. Рекомендую!</p>
+        </div>
+
+        <div class="review-card"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+          <div style="display:flex; align-items:center; gap: 16px; margin-bottom: 16px;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--c-sage-light); display:flex; align-items:center; justify-content:center; font-weight:bold; color:var(--c-sage);">
+              З</div>
+            <div>
+              <h4 style="margin:0; font-size:1.125rem;">Зарина Осмонова</h4>
+              <span style="font-size:0.875rem; color:var(--c-gray-text);">Курс: Парикмахерское дело</span>
+            </div>
+          </div>
+          <p style="color:var(--c-dark-text); font-size:14px; line-height:1.5; text-align:left;">Благодарю
+            преподавателей MasterClass!
+            Очень доходчиво, терпеливо объясняют каждую технику укладки и стрижки. Атмосфера на уроках была топ, даже
+            грустно было расставаться с группой.</p>
+        </div>
+
+        <div class="review-card"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); height: 100%; display: flex; flex-direction: column; justify-content: flex-start;">
+          <div style="display:flex; align-items:center; gap: 16px; margin-bottom: 16px;">
+            <div
+              style="width: 48px; height: 48px; border-radius: 50%; background: var(--c-sage-light); display:flex; align-items:center; justify-content:center; font-weight:bold; color:var(--c-sage);">
+              Н</div>
+            <div>
+              <h4 style="margin:0; font-size:1.125rem;">Нурзат Бакытова</h4>
+              <span style="font-size:0.875rem; color:var(--c-gray-text);">Курс: Бровист</span>
+            </div>
+          </div>
+          <p style="color:var(--c-dark-text); font-size:14px; line-height:1.5; text-align:left;">Очень довольна
+            обучением! За короткое время научилась делать архитектуру и ламинирование. Уже работаю и зарабатываю.
+            Спасибо MasterClass!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teachers Section Placeholder -->
+  <section id="teachers" class="section">
+    <div class="container">
+      <h2 class="section-title">Наши преподаватели</h2>
+      <p class="section-subtitle">Опытные практики с многолетним стажем</p>
+
+      <div class="grid-cards">
+        <div class="review-card text-center"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+          <div class="teacher-img-placeholder"
+            style="width: 100%; aspect-ratio: 4/5; background: #e9ede7; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; color: #81956e;">
+            Фото</div>
+          <h3 class="card-title" style="margin-bottom: 8px; font-size: 1.125rem;">Преподаватель</h3>
+          <p class="card-desc" style="font-size: 0.875rem;">Специализация / стаж работы</p>
+        </div>
+        <div class="review-card text-center"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+          <div class="teacher-img-placeholder"
+            style="width: 100%; aspect-ratio: 4/5; background: #e9ede7; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; color: #81956e;">
+            Фото</div>
+          <h3 class="card-title" style="margin-bottom: 8px; font-size: 1.125rem;">Преподаватель</h3>
+          <p class="card-desc" style="font-size: 0.875rem;">Специализация / стаж работы</p>
+        </div>
+        <div class="review-card text-center"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+          <div class="teacher-img-placeholder"
+            style="width: 100%; aspect-ratio: 4/5; background: #e9ede7; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; color: #81956e;">
+            Фото</div>
+          <h3 class="card-title" style="margin-bottom: 8px; font-size: 1.125rem;">Преподаватель</h3>
+          <p class="card-desc" style="font-size: 0.875rem;">Специализация / стаж работы</p>
+        </div>
+        <div class="review-card text-center"
+          style="background: var(--c-white); padding: 24px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+          <div class="teacher-img-placeholder"
+            style="width: 100%; aspect-ratio: 4/5; background: #e9ede7; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; justify-content: center; color: #81956e;">
+            Фото</div>
+          <h3 class="card-title" style="margin-bottom: 8px; font-size: 1.125rem;">Преподаватель</h3>
+          <p class="card-desc" style="font-size: 0.875rem;">Специализация / стаж работы</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Booking Section -->
+  <section id="booking" class="premium-booking-section">
+    <div class="container">
+      <div class="premium-booking-grid">
+
+        <!-- Left Side: Form -->
+        <div>
+          <div class="premium-labeled-text">НАЧНИ СВОЙ ПУТЬ</div>
+          <h2 class="premium-title">Запишись сейчас —<br>получи <span class="font-accent">скидку 10%</span></h2>
+          <p class="premium-subtitle">Количество мест ограничено. Рассрочка Mbank без переплат.</p>
+
+          <form id="premiumBookingForm" class="premium-form">
+            <div class="form-group">
+              <label for="userName">Ваше имя</label>
+              <input type="text" id="userName" name="name" placeholder="Как вас зовут?" required>
+            </div>
+
+            <div class="form-group">
+              <label for="userPhone">Телефон / WhatsApp</label>
+              <input type="tel" id="userPhone" name="phone" placeholder="+996 700 700 649" required>
+            </div>
+
+            <div class="form-group">
+              <label for="courseSelect">Направление</label>
+              <select id="courseSelect" name="course" required>
+                <option value="" disabled selected>— Выберите курс —</option>
+                <option value="hair">Парикмахерское дело</option>
+                <option value="barber">Мужской мастер (Барбер)</option>
+                <option value="nails">Ногтевой сервис (Маникюр)</option>
+                <option value="brows">Бровист</option>
+                <option value="lashes">Ресницы</option>
+                <option value="pmu">Перманентный макияж</option>
+                <option value="makeup">Визажист</option>
+                <option value="makeup">Макияж для себя</option>
+                <option value="cosmetology">Косметолог-эстетист</option>
+                <option value="massage">Курсы массажа</option>
+                <option value="epilation">Шугаринг и восковая эпиляция</option>
+              </select>
+            </div>
+
+            <button type="submit" class="premium-btn-submit">Отправить заявку</button>
+            <p class="premium-privacy">Мы ценим вашу конфиденциальность</p>
+          </form>
+
+          <!-- Success Message (Hidden by default) -->
+          <div id="bookingSuccessMsg" class="premium-success-msg">
+            <h3>Спасибо за заявку!</h3>
+            <p>Мы свяжемся с вами в ближайшее время.</p>
+            <p style="margin-top: 12px; font-weight: bold; color: var(--c-sage);">Вам доступна скидка 10% на обучение!
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Side: Contacts -->
+        <div class="premium-contact-blocks">
+          <div class="premium-contact-block">
+            <div class="premium-contact-label">Позвоните нам</div>
+            <a href="tel:+996700700649" class="premium-contact-value">+996 700 700 649</a>
+          </div>
+
+          <div class="premium-contact-block">
+            <div class="premium-contact-label">WhatsApp</div>
+            <a href="https://wa.me/996553381039" target="_blank" class="premium-contact-value">+996 553 381 039</a>
+          </div>
+
+          <div class="premium-contact-block">
+            <div class="premium-contact-label">Instagram</div>
+            <a href="https://instagram.com/jazira.avaz.beauty" target="_blank"
+              class="premium-contact-value">@jazira.avaz.beauty</a>
+          </div>
+
+          <div class="premium-contact-block" style="margin-top: 48px;">
+            <div class="premium-contact-label">Адрес</div>
+            <div style="color: #fff; font-size: 1.1rem; line-height: 1.5; margin-bottom: 8px;">
+              г. Бишкек, ул. Московская, 54<br>
+              1 этаж · Пн–Сб: 9:00–18:00
+            </div>
+            <a href="https://go.2gis.com/TfI5Z" target="_blank"
+              style="color: var(--c-sage); text-decoration: none; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 1px;">Открыть
+              на карте →</a>
+          </div>
+
+          <div class="premium-social-circles">
+            <a href="https://instagram.com/Jazira.avaz.beauty" target="_blank" class="premium-social-circle"
+              aria-label="Instagram">
+              <svg fill="currentColor" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+              </svg>
+            </a>
+            <a href="https://wa.me/996553381039?text=Здравствуйте! Я пришел с сайта MasterClass и хочу узнать подробнее о курсах."
+              target="_blank" class="premium-social-circle" aria-label="WhatsApp">
+              <svg fill="currentColor" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+              </svg>
+            </a>
+            <a href="tel:+996700700649" class="premium-social-circle" aria-label="Phone">
+              <svg fill="currentColor" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script for Booking Form -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Карточный слайдер (Smooth Scroll)
+      const carousel = document.getElementById('coursesCarousel');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+
+      if (carousel && prevBtn && nextBtn) {
+        const getScrollAmount = () => {
+          const card = carousel.querySelector('.course-card');
+          if (!card) return 300;
+          const gap = parseInt(window.getComputedStyle(carousel).gap) || 0;
+          return card.offsetWidth + gap;
+        };
+
+        nextBtn.addEventListener('click', () => {
+          carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+          carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+        });
+      }
+
+      // Premium Booking form
+      const form = document.getElementById('premiumBookingForm');
+      const successMsg = document.getElementById('bookingSuccessMsg');
+
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault(); // prevent actual page reload
+
+          // Here we would normally send data to a server via fetch/ajax
+          // For now, we simulate a successful submission:
+
+          // Hide form in style
+          form.style.opacity = '0';
+          setTimeout(() => {
+            form.style.display = 'none';
+            // Show success message
+            successMsg.style.display = 'block';
+
+            // Send event to analytics or trigger WhatsApp window if needed
+            // e.g. window.open('https://wa.me/...');
+          }, 300);
+        });
+      }
+    });
+  </script>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

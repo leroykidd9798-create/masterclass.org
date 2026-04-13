@@ -1,0 +1,126 @@
+/* Responsive Design */
+
+/* Tablet & Smaller Desktop */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 2.75rem;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .mbank-block {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+}
+
+/* Tablets & Mobile */
+@media (max-width: 768px) {
+  .header .container {
+    position: relative;
+  }
+  
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--c-white);
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: var(--shadow-md);
+    gap: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.4s ease-in-out;
+    opacity: 0;
+  }
+  
+  .nav-menu.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+  
+  .nav-link::after {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .hero {
+    padding: 120px 0 60px;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem;
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .course-card {
+    flex: 0 0 280px;
+  }
+
+  .courses-carousel-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, rgba(248, 249, 250, 0), rgba(248, 249, 250, 1));
+    pointer-events: none;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.875rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+  
+  .fab-container {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .fab-button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .mbank-block {
+    padding: 32px 20px;
+  }
+  
+  .mbank-title {
+    font-size: 1.5rem;
+  }
+}
