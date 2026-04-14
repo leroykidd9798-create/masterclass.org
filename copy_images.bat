@@ -1,0 +1,12 @@
+chcp 65001
+mkdir "d:\Projects\masterclass.org\img"
+copy "%USERPROFILE%\Downloads\Без названия.jpg" "d:\Projects\masterclass.org\img\Без_названия.jpg"
+copy "%USERPROFILE%\Downloads\Без названия (1).jpg" "d:\Projects\masterclass.org\img\Без_названия__1_.jpg"
+copy "%USERPROFILE%\Downloads\Без названия (2).jpg" "d:\Projects\masterclass.org\img\Без_названия__2_.jpg"
+copy "%USERPROFILE%\Downloads\Без названия (3).jpg" "d:\Projects\masterclass.org\img\Без_названия__3_.jpg"
+copy "%USERPROFILE%\Downloads\#депиляция #эстетика #шугаринг #гладкость_.jpg" "d:\Projects\masterclass.org\img\_депиляция__эстетика__шугаринг__гладкость_.jpg"
+copy "%USERPROFILE%\Downloads\The Dream Skin Clinic.jpg" "d:\Projects\masterclass.org\img\The_Dream_Skin_Clinic.jpg"
+copy "%USERPROFILE%\Downloads\makeup collection.jpg" "d:\Projects\masterclass.org\img\makeup_collection.jpg"
+copy "%USERPROFILE%\Downloads\Кисти для макияжа.jpg" "d:\Projects\masterclass.org\img\Кисти_для_макияжа.jpg"
+copy "%USERPROFILE%\Downloads\Рабочее место мастера перманента.jpg" "d:\Projects\masterclass.org\img\Рабочее_место_мастера_перманента.jpg"
+copy "%USERPROFILE%\Downloads\Lash aesthetic in 2024 _ Lashes, Eyelash extensions, False eyelash accessories.jpg" "d:\Projects\masterclass.org\img\Lash_aesthetic_in_2024___Lashes__Eyelash_extensions__False_eyelash_accessories.jpg"
